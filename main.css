@@ -1,0 +1,133 @@
+body {
+        overflow: hidden;
+        background: #333; /* Цвет фона */
+    }
+
+    .up-overlay {
+        position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 250%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+        left: 650px;
+        top: 200px;
+        color:#fff;
+        z-index: 3000002;
+
+
+    }
+    .gcons {
+        position: absolute;
+        left: 50px;
+        bottom: 45px;
+        z-index: 3000002;
+
+
+    }
+    .up-BYN {
+        position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 150px; /* Размер текста */
+        font-weight: 500; /* Светлое начертание */
+        left: 50px;
+        top: 350px;
+        color:#fff;
+        z-index: 3000002;
+        word-wrap: break-word;
+
+
+    }
+    .up-BYN1 {
+        position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 100%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+        left: 150px;
+        top: 560px;
+        color:#fff;
+        z-index: 3000002;
+        word-wrap: break-word;
+
+
+    }
+    .up-RUB {
+        position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 150px; /* Размер текста */
+        font-weight: 500; /* Светлое начертание */
+        left: 600px;
+        top: 350px;
+        color:#fff;
+        z-index: 3000002;
+
+
+    }
+    .up-RUB1 {
+        position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 100%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+        left: 796px;
+        top: 560px;
+        color:#fff;
+        z-index: 3000002;
+
+
+    }
+    .up-USD {
+        position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 150px; /* Размер текста */
+        font-weight: 500; /* Светлое начертание */
+        left: 1300px;
+        top: 350px;
+        color:#fff;
+        z-index: 3000002;
+
+
+    }
+    .up-USD1 {
+        position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 100%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+        left: 1450px;
+        top: 560px;
+        color:#fff;
+        z-index: 3000002;
+
+
+    }
+    .down-overlay {
+        position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 250%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+        left: 750px;
+        bottom: 120px;
+        color: whitesmoke;
+        z-index: 3000002;
+
+
+    }
+
+
+    .video_overlays {
+        position: absolute;
+        top: 0;
+        left: 0;
+        float: left;
+        width: 200%;
+        min-height: 300%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 300000;
+    }
+
+
+    .trailer > video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
