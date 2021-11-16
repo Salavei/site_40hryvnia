@@ -147,3 +147,25 @@ body {
         z-index: 8800000;
 
     }
+
+    
+
+    /*style for 404 page*/
+    .error_page_text{
+    position: absolute;
+        font-family: Gill Sans, sans-serif; /* Гарнитура шрифта */
+        font-size: 50px; /* Размер текста */
+        font-weight: 50; /* Светлое начертание */
+        left: 30%;
+        top: 5%;
+        color:#fff;
+
+    }
+    .error_page{
+        position: absolute;
+        left: 35%;
+        bottom: 10%;
+        width: 70%;
+        height: 70%;
+
+    }

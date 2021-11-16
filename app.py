@@ -20,6 +20,10 @@ def index():
     return render_template('main.html', byn=(int((info_bun * 40) * 100) / 100), rub=(int((info_rub * 40) * 100) / 100),
                            usd=(int((info_usd * 40) * 100) / 100))
 
+@app.errorhandler(404)
+def page_not_found(e):
+    # вывод html
+    return render_template('404.html'), 404
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5007)
